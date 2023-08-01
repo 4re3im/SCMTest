@@ -1,0 +1,310 @@
+.cup-main-carousel{
+	position: relative;
+	height: 435px;
+	overflow: hidden;
+	margin:0px;
+	padding: 0px;
+}
+
+.cup-main-carousel .btn_spacer{
+	width: 100%;
+	height: 32px;
+}
+
+.cup-main-carousel .btn_department_frame{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 32px;
+	overflow: display;
+}
+
+.cup-main-carousel .btn_department_frame .btn_primary,
+.cup-main-carousel .btn_department_frame .btn_secondary{
+	float: left;
+	margin-left: 30px;
+	background: #FBD766;
+	color: #FFFFFF;
+	text-align: center;
+	width: 180px;
+	height: 45px;
+	border: 2px solid #333333;
+	font-family: 'netto_otregular';
+}
+
+.cup-main-carousel .btn_department_frame .btn_primary.active .value,
+.cup-main-carousel .btn_department_frame .btn_secondary.active .value{
+	background: #FBD765;
+	color: #333333;
+	font-family: 'netto_otregular';
+	font-size: 24px;
+}
+
+.cup-main-carousel .btn_department_frame .btn_primary .value,
+.cup-main-carousel .btn_department_frame .btn_secondary .value{
+	background: #333333;
+	color: #FFFFFF;
+	text-align: center;
+	width: 180px;
+	font-size: 24px;
+	line-height: 30px;
+	height: 32px;
+	letter-spacing: 1px;
+}
+
+
+.cup-main-carousel .btn_department_frame .subject_list_frame{
+	position: absolute;
+	top: 34px;
+	left: 0px;
+	border: 2px solid #333333;
+	border-top: 0px;
+	width: 451px;
+	display: none;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects{
+	display: none;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .title{
+	border: 0px;
+	border-top: 15px solid #FBD765;
+	background: #333333;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0px;
+	padding-left: 15px;
+	margin: 0px;
+	height: 28px;
+	line-height: 28px;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list{
+	background: #333333;
+	height: 300px;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section{
+	float: left;
+	width: 225px;
+	height: 100%;
+	background: #EBF4F6;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section.end{
+	margin-left: 1px;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section ul{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section ul li{
+	list-style: none;
+	padding: 4px 10px 4px 33px;
+	background: url(images/list-icon-dark-18.png) no-repeat 10px 3px;
+	font-size: 14px;
+	line-height: 18px;
+	
+	color: #333333;
+	font-weight: normal;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section ul li:hover{
+	background: url(images/list-icon-dark-18.png) no-repeat 10px 3px #F9D55B;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section ul li a:link,
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section ul li a:active,
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section ul li a:visited{
+	color: #333333;
+	background: transparent;
+	font-weight: normal;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .list .section ul li a:hover{
+	color: #333333;
+	background: transparent;
+	font-weight: normal;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .foot{
+	height: 28px;
+	background: #333333;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 28px;
+	text-align: right;
+	padding: 0px 2px;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .foot .btn_browse_all{
+	float: right;
+	width: 95px;
+	padding-right: 20px;
+	background: url('images/white_arrow_right_12.png') no-repeat right center; 
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .foot .btn_browse_all a,
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .foot .btn_browse_all a:link,
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .foot .btn_browse_all a:visited,
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .foot .btn_browse_all a:active{
+	height: 28px;
+	color: #FFFFFF;
+	background: transparent;
+}
+
+.cup-main-carousel .btn_department_frame .subject_list_frame .subjects .foot .btn_browse_all a:hover{
+	height: 28px;
+	color: #F9D55B;
+	text-decoration: none;
+	background: transparent;
+}
+
+
+
+
+
+.cup-main-carousel .carousel_frame{
+	position: absolute;
+	top: 32px;
+	left: 0px;
+	height: 400px;
+	/*
+		background: url(http://www.naidoc.org.au/wp-content/uploads/2012/08/2012-NAIDOC-poster-640-448.jpg);
+	*/
+	position: relative;
+	border: 2px solid #333333;
+	border-right: 0px;
+}
+
+.cup-main-carousel .carousel_frame .description_frame{
+	display: none;
+	position: absolute;
+	top: 240px;
+	left: 0px;
+	
+}
+
+.cup-main-carousel .carousel_frame .description_frame .indication_frame{
+	float: left;
+	width: 25px;
+	height: 102px;
+	/*border: 5px solid #333333;*/
+	background: #333333;
+	overflow: hidden;
+	
+}
+
+.cup-main-carousel .carousel_frame .description_frame .info_frame{
+	float: left;
+	width: 380px;
+	height: 102px;
+	background: url(images/white_o80.png);
+}
+
+.cup-main-carousel .carousel_frame .description_frame .btn_frame{
+	float: left;
+	width: 109px;
+	height: 102px;
+	background: url(images/read_more_tag_solid.png) no-repeat;
+}
+
+.cup-main-carousel .carousel_frame .description_frame .btn_frame a{
+	width:100%;
+	height:100%;
+}
+
+.cup-main-carousel .carousel_frame .description_frame .btn_frame a div{
+	width: 100%;
+	height:100%;
+}
+
+
+
+
+.cup-main-carousel .carousel_frame .description_frame .indication_frame .indicator{
+	background: #3392a1;
+	width: 15px;
+	height: 15px;
+	margin: 4px 0px 0px 4px;
+}
+
+.cup-main-carousel .carousel_frame .description_frame .indication_frame .indicator.active{
+	background: #fbd765;
+}
+
+
+
+
+.cup-main-carousel .carousel_frame .description_frame .info_frame h5{
+	margin:0px;
+	padding: 15px 5px 2px 15px;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.cup-main-carousel .carousel_frame .description_frame .info_frame p{
+	margin:0px;
+	padding: 2px 5px 2px 15px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.cup-main-carousel .carousel_frame .description_frame .info_frame .content_area{
+	padding-right: 15px;
+}
+
+.cup-main-carousel .carousel_frame .loading_indicator{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 150px;
+	z-index: 1;
+}
+
+.cup-main-carousel .carousel_frame .image_frame{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	/*background: #454578;*/
+}
+
+.cup-main-carousel .carousel_frame .image_frame .transition_frame{
+	position: absolute;
+	width: 200%;
+	height: 100%;
+}
+
+.cup-main-carousel .carousel_frame .image_frame .transition_frame .position_one,
+.cup-main-carousel .carousel_frame .image_frame .transition_frame .position_two{
+	float: left;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.cup-main-carousel .carousel_frame .image_frame .transition_frame .position_one img,
+.cup-main-carousel .carousel_frame .image_frame .transition_frame .position_two img{
+	margin: 0px;
+	padding: 0px;
+}
+
+.cup-main-carousel .carousel_frame .image_frame .image_layer{
+	width: 100%;
+	height: 100%;
+}
+
+.cup-main-carousel .carousel_frame .image_holder{
+	display: none;
+}

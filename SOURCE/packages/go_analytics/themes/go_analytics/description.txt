@@ -1,0 +1,2 @@
+Go Analytics Theme
+This theme does not have any style in it. This is intended for use of APIs to remove the default theme.

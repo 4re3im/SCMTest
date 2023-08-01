@@ -1,0 +1,24 @@
+# Node modules
+vendor
+
+# Environment variables, never commit this file
+.env
+
+# Lock files
+composer.lock
+
+# Editor config
+.editorconfig
+
+# PHPStorm
+.idea
+.idea/*
+
+# Windows Git Dump File
+*.stackdump*
+
+# Exclusive to Go
+src/HubEntitlement/Repositories
+
+# Test file
+test.php

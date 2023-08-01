@@ -1,0 +1,143 @@
+.btCupProfessionalRequestForm{
+	background: #ebf4f6;
+	font-family: PT Sans;
+}
+
+.btCupProfessionalRequestForm .inner{
+	margin: 0px 20px;
+	padding: 20px 0px;
+}
+
+.btCupProfessionalRequestForm .inner .errors_frame{
+	background: none repeat scroll 0 0 #EA5723;
+	padding-bottom: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	display: none;
+}
+
+.btCupProfessionalRequestForm .inner .errors_frame .close_btn{
+	float: right;
+	margin: 5px;
+	width: 20px;
+	height: 20px;
+	background: url(images/close_wht.png) no-repeat;
+	cursor: pointer;
+}
+
+.btCupProfessionalRequestForm .inner .errors_frame .content{
+	padding-top: 10px;
+	margin:0px 5px;
+	color: #FFFFFF;
+}
+
+.btCupProfessionalRequestForm .inner .success_frame{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	padding: 10px 0px;
+	display: none;
+}
+
+.btCupProfessionalRequestForm .inner .success_frame span{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	color: #333333;
+	padding: 10px 0px;
+}
+
+.btCupProfessionalRequestForm .inner .heading_msg{
+	color: #333333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.btCupProfessionalRequestForm .inner .form_content{
+	padding-top: 10px;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .spacer{
+	width:1px;
+	height:10px;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item{
+	padding-bottom: 5px;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item label{
+	font-size: 12px;
+	font-weight: bold;
+	padding-right: 5px;
+	color: #333333
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item label span.required{
+	font-size: 12px;
+	font-weight: bold;
+	color: #ea6b3d;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item select{
+	border: 1px solid #CFE5E9;
+	color: #333333
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item select:focus{
+	background: #C2DEE3;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item .field input[type="text"],
+.btCupProfessionalRequestForm .inner .form_content .form_item .field textarea{
+	width: 98%;
+	border: 1px solid #CFE5E9;
+	color: #333333
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item .field input[type="text"].short{
+	width: 40%;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item .field textarea{
+	resize: none;
+	height: 55px;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item .field input[type="text"]:focus,
+.btCupProfessionalRequestForm .inner .form_content .form_item .field textarea:focus{
+	background: #C2DEE3;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item input[type="submit"]{
+	background: #c2dee3;
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid #c2dee3;
+	color: #333333;
+	font-family: PT Sans;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item input[type="submit"]:hover{
+	background: #EA5723;
+	font-size: 16px;
+	border: 1px solid #EA5723;
+	color: #FFFFFF;
+	font-family: PT Sans;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item input[type="submit"]:active{
+	background: #AA4422;
+	font-size: 16px;
+	border: 1px solid #AA4422;
+	color: #FFFFFF;
+	font-family: PT Sans;
+}
+
+.btCupProfessionalRequestForm .inner .form_content .form_item span#loading{
+	padding:5px 50px;
+	width:10px;
+	height:10px;
+	background: url(images/ajax_loading.gif) 10px 10px no-repeat;
+	display: none;
+}

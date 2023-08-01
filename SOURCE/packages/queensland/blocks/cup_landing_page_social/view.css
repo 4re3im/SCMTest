@@ -1,0 +1,91 @@
+.cup_landing_social_section{
+	border: #ECECEC;
+}
+
+.cup_landing_social_section ul{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.cup_landing_social_section ul li{
+	display: inline-block;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	border-left: #ECECEC solid 2px;
+}
+
+.cup_landing_social_section ul li{
+	list-style: none;
+	margin: 0 30px;
+	padding: 0 20px;
+}
+
+.cup_landing_social_section ul li.facebook{
+	background: url(images/facebook.png) no-repeat;
+}
+
+.cup_landing_social_section ul li.linkedin{
+	background: url(images/linkedin.png) no-repeat;
+}
+
+.cup_landing_social_section ul li.erc{
+	background: url(images/contact.png) no-repeat;
+}
+
+.cup_landing_social_section table{
+	width: 100%;
+	border-top: 1px solid #e0eef1;
+	border-bottom: 1px solid #e0eef1;
+	border-collapse: collapse;
+	
+	background: #f5fafa;
+}
+
+.cup_landing_social_section table tr{
+
+}
+
+.cup_landing_social_section table tr td{
+	padding: 10px 15px 10px 15px;
+	white-space: nowrap;
+	border: 0px;
+	border-left: #ECECEC solid 2px;
+	border-right: #ECECEC solid 2px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.cup_landing_social_section table tr td.pad{
+	width: 50%;
+	padding: 10px 0px;
+	border:　0px;
+}
+
+.cup_landing_social_section table tr td.facebook a{
+	display: inline-block;
+	line-height: 20px;
+	font-size: 12px;
+	padding-left: 30px;
+	background: url(images/facebook.png) no-repeat;
+	color: #3c5a99;
+}
+
+.cup_landing_social_section table tr td.linkedin a{
+	display: inline-block;
+	line-height: 20px;
+	font-size: 12px;
+	padding-left: 30px;
+	background: url(images/linkedin.png) no-repeat;
+	color: #007bb6;
+}
+
+.cup_landing_social_section table tr td.erc a{
+	display: inline-block;
+	line-height: 20px;
+	font-size: 12px;
+	padding-left: 30px;
+	background: url(images/contact.png) no-repeat;
+	color: #333333;
+}

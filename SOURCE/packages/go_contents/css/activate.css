@@ -1,0 +1,33 @@
+.alert-danger ol {
+    list-style: lower-alpha outside none;
+    text-align: left;
+}
+
+.go-reactivate {
+    display: flex;
+    margin-top: 10px;
+}
+
+.go-message-wrapper {
+    display: block !important;
+}
+
+#printAccessCode-refresh {
+    padding-top: 8px;
+}
+
+.go-reactivation {
+    display: flex;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+
+#reactivation-refresh {
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.smallForm {
+    width: 80px !important;
+    height: 35px !important;
+}

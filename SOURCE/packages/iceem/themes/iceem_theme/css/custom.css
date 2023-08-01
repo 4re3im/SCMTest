@@ -1,0 +1,772 @@
+/* ###########  GLOBAL STYLES  ########### */
+
+h1, h2, h3, h4, p, a, li {
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+h1, h2, h3, h4, .lead, .price {
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    /*line-height: 1.0625;*/
+}
+
+h2, .lead {
+    margin-bottom: 30px;
+}
+
+.icon:before, .icon-right.arrow:after {
+    background-image: url("../images/sprite.png"); /* IE 8 Fallback */
+    background-image: linear-gradient(transparent, transparent), url("../images/sprite.svg");
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding: 3px;
+    width: 40px;
+    height: 40px;
+}
+
+#home div, #about, #try, #tour, #buy, #contact, #footer {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.shadow {
+    text-shadow: 1px 1px 5px #000;
+}
+
+#home, #about, #try, #tour, #buy, #contact {
+    padding: 80px 0;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+}
+
+.break {
+    margin-bottom: 30px;
+}
+
+.thicker-line-height {
+    line-height: 1.9;
+}
+
+a:focus {
+    outline: none;
+}
+
+.noPadding, .noPadding:before, .noPadding:after {
+    padding: 0;
+}
+
+.btn-aus {
+    background-color: #EFB157;
+    border: 1px solid #CB8B2D;
+    color: #000;
+}
+
+.btn-aus:hover {
+    background-color: #E9A440;
+}
+
+.btn-nsw, #nsw .side-buttons a {
+    background-color: #5C6843;
+    border: 1px solid #4E5937;
+    color: #FFFFFF;
+}
+
+.btn-nsw:hover {
+    background-color: #697453;
+}
+
+.btn-vic, #victorian .side-buttons a {
+    background-color: #5A7883;
+    border: 1px solid #3C5B66;
+    color: #FFFFFF;
+}
+
+.btn-vic:hover {
+    background-color: #7997A2;
+}
+
+
+/* ###########  GLOBAL STYLES  ########### */
+
+
+/* ###########  LOGO AREA  ########### */
+
+.cup {
+    position: absolute;
+    top: -2px;
+}
+.cup svg {
+    width: 90%;
+}
+.branding {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.branding svg {
+    margin: 50px 0 30px;
+    height: auto;
+    max-width: 100%;
+}
+
+.logo>div+div+div {
+    padding: 35px 0 10px;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background: none;
+    color: #36404a;
+}
+
+.logo+div .col-md-6 {
+    text-align: center;
+}
+
+
+/* ###########  LOGO AREA  ########### */
+
+
+/* ###########  NAV-BAR  ########### */
+
+.navbar.navbar-default {
+    background-color: #F4BB29;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin: 5.75px 0;
+}
+
+.navbar-nav li {
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar, .navbar-collapse, .navbar-toggle {
+    border: 0;
+}
+
+
+/* ###########  NAV-BAR  ########### */
+
+
+/* ###########  HOME  ########### */
+
+#logo, #home, #hero, #tour {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#logo {
+    background-image: url("../images/bg-upper.jpg")
+}
+
+#home {
+    background-image: url("../images/bg-home.jpg")
+}
+#hero {
+   background-image: url("../images/Cover_Bkgs_v23_flipped.jpg")
+}
+#tour {
+    background-image: url("../images/Cover_Bkgs_v23.jpg")
+}
+
+#home>.row.container {
+    margin: 0 auto;
+}
+
+#home label {
+    font-weight: 100;
+    float: left;
+}
+
+#home a:not(.btn) {
+    color: #FFFFFF;
+}
+
+#home a:hover:not(.btn) {
+    color: #E5E5E5;
+}
+
+.password:before {
+    background-position: -1px -166px;
+    width: 14px;
+    height: 17px;
+    left: -7px;
+}
+
+.password:hover:before {
+    background-position: -34px -166px;
+}
+
+#home.container-fluid>.row.container>div:first-child form {
+    padding: 0 30px;
+}
+
+#home ul {
+    padding: 0;
+    list-style-position: inside;
+    /* IE9 */
+}
+
+#displayAlert {
+    background: rgba(232, 101, 71, 0.95) none repeat scroll 0 0;
+    border: 0;
+    border-radius: 0;
+    color: #1f1f1f;
+    position: absolute;
+}
+
+#displayAlert .close {
+    padding-left: 10px;
+    position: relative;
+    top: -5px;
+}
+
+#displayAlert.in {
+    position: relative;
+}
+
+#displayAlert.fade {
+    -webkit-transition: opacity 0s linear;
+    -o-transition: opacity 0s linear;
+    transition: opacity 0s linear;
+}
+
+#displayAlert .close {
+    font-size: 30px;
+    font-weight: 300;
+    opacity: 0.3;
+}
+
+
+/* ###########  HOME  ########### */
+
+
+/* ###########  HERO  ########### */
+
+#hero {
+    max-height: 640px;
+    overflow: hidden;
+}
+
+#hero, #hero .container {
+    padding: 0 !important;
+}
+
+
+/* ###########  HERO  ########### */
+
+
+/* ###########  PRICING  ########### */
+
+#tour .price {
+    font-size: 60px;
+}
+
+#tour .price>span:first-child {
+    font-size: 80px;
+}
+
+#tour .price>span+span {
+    font-size: 20px;
+}
+
+#tour .row .col-sm-6+.col-sm-6>div {
+    margin-top: 10px;
+}
+
+#tour .row:first-child>div {
+    margin-bottom: 40px;
+}
+
+#hero {
+  background-position: left;
+}
+/* ###########  PRICING  ########### */
+
+.grey-box {
+  background: #E0E8EA;
+  border: #DCE3E5 solid 1px;
+  width: 60%;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+}
+.grey-box h4{
+  font-weight: 400;
+  font-size: 16px;
+}
+.grey-box p{
+  font-weight: 100;
+  font-size: 16px;
+  margin: 0;
+}
+
+#tour {
+  background-position: top;
+}
+
+
+/* ###########  CONTACT  ########### */
+#contact {
+  background: #E1E8EA;
+}
+
+#contact label {
+    font-weight: 100;
+    float: left;
+}
+
+#contact button {
+    margin: 32px 0 0;
+}
+
+.disclaimer {
+  margin: 50px 0;
+}
+
+/* ###########  CONTACT  ########### */
+
+
+/* ###########  FOOTER  ########### */
+
+#footer {
+    background-color: #F4BB29;
+}
+
+#footer .container ul {
+    margin: 30px auto;
+}
+
+#footer .container ul li, #footer .container-fluid ul li {
+    display: inline;
+}
+
+.hide-text, #footer .icon {
+    border: 0;
+    font: 0/0 a !important;
+    text-shadow: none;
+    color: transparent;
+    background-color: transparent;
+}
+
+#footer>div:first-child li {
+    margin: 0 8px;
+}
+
+#footer .facebook:before {
+    background-position: 0px 0px;
+}
+
+#footer .facebook:hover:before {
+    background-position: 0px -60px;
+}
+
+#footer .twitter:before {
+    background-position: -60px 0px;
+}
+
+#footer .twitter:hover:before {
+    background-position: -60px -60px;
+}
+
+#footer .googlePlus:before {
+    background-position: -180px 0px;
+}
+
+#footer .googlePlus:hover:before {
+    background-position: -180px -60px;
+}
+
+#footer .youtube:before {
+    background-position: -120px 0px;
+}
+
+#footer .youtube:hover:before {
+    background-position: -120px -60px;
+}
+#footer .container ul li a {
+    color: #323232;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+#footer .container ul li a:hover {
+    color: #181818;
+    font-size: 14px;
+}
+
+#footer .container-fluid {
+    background-color: #323232;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 11px;
+    color: #FFFFFF;
+}
+
+#footer .container-fluid a {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#footer .container-fluid a:hover {
+    color: #E5E5E5;
+}
+
+#footer .container-fluid ul li:before {
+    content: "\007C";
+    display: inline-block;
+    padding-right: 3px;
+    color: #FFFFFF;
+}
+
+#footer .container-fluid ul li:first-child:before {
+    content: "";
+}
+
+.btn-round-sm {
+    border-radius: 20px;
+    background: #258cb0;
+    margin: 0 10px;
+    padding:7px 20px;
+}
+.btn-round-sm:hover{
+  background:#185a71
+}
+/* ###########  FOOTER  ########### */
+
+
+/* ###########  MEDIA QUERIES  ########### */
+
+@media (max-width: 441px) {
+    .logo+div.row .col-md-6.col-md-offset-3 a {
+        display: block;
+        margin: 5px 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo .col-md-3 {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1059px) {
+    #logo a.btn {
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 796px) {
+  .btn-round-sm {
+      border-radius: 20px;
+      margin: 10px 10px 5px 10px;
+      padding:7px 20px;
+  }
+}
+@media (min-width: 768px) {
+    .navbar-nav li {
+        display: inline-block;
+        float: none;
+    }
+}
+
+@media (max-width: 767px) {
+  .cup {top: -5px;}
+  .cup svg {width: 80%;}
+    .logo>div+div+div {
+        /*visibility: hidden;*/
+        padding:20px 0 0 0;
+
+    }
+    .navbar-nav li a {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+        background-color: #413200;
+        color: #FFFFFF;
+    }
+    #tour .row:first-child>div {
+        margin-bottom: 0;
+    }
+
+    .grey-box {
+      width: 80%;
+    }
+}
+
+@media (max-width: 559px) {
+    /*.bottomaligned {
+      width: 90%;
+   }*/
+    body {
+        font-size: 14px;
+    }
+    body h1, body h2 {
+        font-size: 35px;
+    }
+    #home, #about, #try, #tour, #buy, #contact {
+    padding: 60px 0;
+}
+
+}
+@media (max-width: 360px) {
+  .branding svg {width: 60%;}
+}
+
+
+/* ###########  MEDIA QUERIES  ########### */
+
+
+/* ###########  IE 10+  ########### */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /*IE10+ CSS styles go here*/
+    #home, #hero, #contact, #footer {
+        background-size: 250% 140%;
+    }
+}
+
+
+/* ###########  IE 10+  ########### */
+
+
+/* ###########  ANIMATIONS  ########### */
+
+
+/* Underline From Center */
+
+@media (min-width: 768px) {
+    .hvr-underline-from-center {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        overflow: hidden;
+    }
+    .hvr-underline-from-center:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        background: #323232;
+        height: 1px;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+    .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+        left: 0;
+        right: 0;
+    }
+}
+
+
+/* ###########  ANIMATIONS  ########### */
+
+
+/* ###########  BACK TO TOP ########### */
+
+.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: rgba(50, 50, 50, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+
+.no-touch .cd-top:hover {
+    background-color: #323232;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+
+
+/* ###########  BACK TO TOP ########### */
+
+
+/* ###########  MODAL  ########### */
+
+.modal-header {
+    border: 0;
+}
+
+#home .modal-body {
+    text-align: left;
+}
+
+.modal-body input {
+    display: block;
+    width: 100%;
+}
+
+.modal-fullscreen {
+    background: transparent;
+}
+
+.modal-fullscreen .modal-content {
+    background: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.modal-backdrop.modal-backdrop-fullscreen {
+    background-color: #323232;
+    opacity: 0.9;
+}
+
+.modal-backdrop.modal-backdrop-fullscreen.in {
+    opacity: .98;
+    filter: alpha(opacity=97);
+}
+
+.modal-content button {
+    margin-bottom: 20px;
+}
+
+.modal-content a {
+    color: #FFFFFF !important;
+    text-decoration: underline;
+}
+
+.modal-content a:hover {
+    color: #E5E5E5 !important;
+}
+
+.modal button.close {
+    font-size: 40px;
+    font-weight: 300;
+    opacity: 1;
+    color: #FFFFFF;
+    position: relative;
+    right: 5%;
+    top: 5%;
+}
+
+.modal-fullscreen .modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    margin-top: 90px;
+    color: #FFFFFF;
+}
+
+.modal {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.75em;
+}
+
+.modal ul {
+    /* padding-left: 13px; */
+}
+
+.modal ul li {
+    padding-left: 5px;
+}
+
+.btn-info {
+    color: #FFFFFF;
+    background-color: #258cb0;
+}
+.btn-info:hover  {
+  color: #FFFFFF;
+  background-color: #185a71;
+}
+
+@media (min-width: 768px) {
+    #modal-fullscreen .modal-dialog {
+        width: 750px;
+    }
+    .modal-fullscreen .modal-dialog {
+        width: 70%;
+    }
+}
+
+
+/* ###########  MODAL  ########### */

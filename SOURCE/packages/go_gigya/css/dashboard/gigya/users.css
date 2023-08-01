@@ -1,0 +1,16 @@
+#gigya-search {
+  width: 400px;
+}
+
+.ccm-ui div.ccm-pagination span {
+  margin-right: 5px;
+}
+
+.ui-menu {
+  font-size: 13px;
+}
+
+.ui-autocomplete-loading {
+  background: rgba(0, 0, 0, 0) url('/packages/go_gigya/images/ajax-loader.gif')
+    no-repeat scroll right center;
+}

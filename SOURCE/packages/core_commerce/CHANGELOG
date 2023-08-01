@@ -1,0 +1,277 @@
+2.8.5
+   - checkout pages are more easily overridden for German ecommerce rules
+   - standard gateway updated to be compatible with new IPN requirements.
+
+2.8.4
+   - orders are searchable
+   - "cart" and "checkout" pages are hidden from nav on install
+   - added helpful errors for deleted shipping methods.
+   - added "show all inventory" in product list block
+   - changed "status incomplete" value to prevent errors in some databases
+   - "plain" template "sort by" dropdowns work
+   - taxes that use a product set now save the set correctly
+   - when all shippable products are removed from an order, the shipping disappears.
+   - AIM credit card method lets users use a 'slash' for the expiry date.
+   - No way to buy a product that places a user in the Administrators group
+   - Addressed concerns of cross site scripting by using form helper instead of adding raw $_REQUEST vars.
+   - Added German language support. 
+   - Removed deprecated eregi in paypal gateway
+   - Deleted payment gateways can be restored.
+   - configurable options display the name of the key and not just the values in receipts and order summaries
+
+2.8.3
+    - prevented header errors from current order model
+    - loaded current order model in cart links on_start method
+
+2.8.2
+    - added permissions check to "add to group on purchase" checkboxes in product edit pane and search controller.
+    - no more error in the "results per page" part of the "Results Layout" tab in product list block.
+    - fix for the cart links block product count not persisting between page loads.
+
+2.8.1
+    - moved get current cart into on_page_view method of cart links to avoid possibility of set_cookie causing header output warnings
+    - Deleting a product group will not force people to login to buy products that would add them to the group that no longer exists.
+    - Corrected where some strings were missing translation
+    - Corrected the order of quantity unlimited / minimum purchase / allow negative quantity settings on adding a product
+
+2.8
+    - Products can have negative quantity
+    - Product List Block respects page permissions.
+    - Product descriptions are searchable content.
+    - Payment methods can be deleted
+    - Improved dashboard search options
+    - Dashboard product search "Products in no sets" returns products that are not in a set
+    - Added new "Add to cart" event
+    - Added new "Payment incomplete" status for orders where a gateway transaction has been initiated, but not completed.
+    - Loading jquery.ui in the header for product list block so date picker as customer choice works properly.
+    - Added 'Products under parent page' to product list
+    - Included "optional" help note for sales tax zip code.
+    - Fix iOS product image hover issue
+    - Use dashboard setting to go back to shopping rather than history.go(-1)
+
+2.7.1
+    - Changing product set name when there are no products in the set does not throw an error.
+    - Product set delete works again
+    - Added shipping method fail messages
+
+2.7
+    - Product list block does not error when saved.
+    - Fixed issue with product block not adding its content to the search index correctly.
+    - Corrected order export to not shift the row when there is no shipping information and it will say "none" when there is no shipping.
+    - Cart list dialog has additional buttons on the top for easier checkout
+
+2.6
+    - Fixed issue where sales tax was always charging whatever the most recently modified tax was.
+    - Fixed product picker dialog
+    - products now retain sets when they're coppied
+    - made product list block usable in page defaults, stacks & global areas by correctly grabbing the current page's id.
+
+
+2.5
+    - upgraded for compatibility with concrete5.5
+    - Much improved interface
+    - Added wishlists and gift registries (beta)
+    - integrated with internationalization package
+    - uses Zend Currency for price formatting
+    - Added support for concrete5.5's pre-install form (allows users to specify whether they want sample content or not.)
+    - fixed sales tax bug where tax amount would be calculated wrong when tax was set to be included in price
+    - Added ability to save shipping + billing details to profile durring checkout
+    - Fixed bug where certain discounts would trigger error messages when used with concrete5 5.4.2
+    - Added Dutch language
+
+2.0.8
+    - Fixed sales tax so that it computes after discount. If there are a mix of products that require sales tax then we draw discounts from those products first
+    - Fixed method $product->isSoldOut() which had returned incorrect data
+    - Typo fix ("transation")
+
+2.0.7
+    - Fixed error on checkout when multiple shipping methods are enabled.
+
+2.0.6
+    - Fixed more bugs with the plain product list template mis-nested DIVs
+
+2.0.5
+    - Fixed bug with the plain product list template having mis-nested DIVs (leading to them being unclosed in certain situations)
+
+2.0.4
+    - Fixed bug in product-specific discount where tiered pricing wasn't being taken into account.
+
+2.0.3
+    - Fixing bug in the product list where the title wasn't linked properly.
+
+2.0.2
+    - Tiered pricing had been rounding to the nearest whole dollar/currency amount. Fixed.
+
+2.0.1
+    - Fixing bug where additional billing attributes weren't being copied over when using billing attributes as shipping attributes
+
+2.0 -
+    - Product Sets
+    - My Order History in Profile (if public profiles are enabled.)
+    - Tiered/volume pricing by product
+    - Export Orders from dashboard
+    - Global customer choices are now available. Choose whether customer choices are shared across products
+    - Print Order in dashboard + my account
+    - New Discount: by product(s) and product set
+    - New Discount: by user/group
+    - SSL on first checkout screen.
+    - Ordering of displayable properties in product and product list block
+    - Duplicate previous order fromorder history page
+    - Minimum Order Value/Minimum Order Quantity options now available
+    - Flag for hiding product if no inventory or at minimum qty (from product lists)
+    - Better support for multiple instances of the product list block on one page
+    - Currency symbol position configurable
+    - Sequential, formatable order numbers
+    - Fixed bug where product Shipping Required after removing from cart (bug)
+    - Gracefully create account on checkout
+    - Registration required + add  user to group on checkout
+    - Product attributes are now sortable in the dashboard
+    - Fixed product Price Checkbox - negative price bug
+    - Product List - search by price
+    - Experimental CSS formatable product list, product detail templates
+
+1.8.7
+    - Improved back to shopping link for ie/non-dialog cart view (thx rainmaker)
+
+1.8.6
+    - Added French as a language
+
+1.8.5.1
+    - Changed order total comparison code for paypal payment standard and added additional logging for debugging of paypal ipn return values.
+
+1.8.5
+    - Fixed PHP error about getPackageID() on a non-object that would happen if you attempted to install eCommerce on a site with no "full" page type.
+
+1.8.4
+    - added missing css class to return to shopping button + added option to paypal payments standard to pass shipping or billing address
+
+1.8.3
+    - fixed error that would occur when a new free shipping discount was added when there were no shipping methods enabled.
+
+1.8.2
+    - fixed error where timed discount codes would not expire or activate properly, changed dashboard entry form to respect the user's timezone if it's set.
+    - fixed error where product price select customer choices would error upon editing them in the dashboard
+
+1.8.1.1
+    - Accidentally disabled popup cart. Now fixed.
+
+1.8.1
+    - Sales tax dropdown is no longer disabled when an item isn't shippable.
+    - fixing bug in CheckoutStepHelper::removeStep
+    - Fixing bug in Authorize.net SIM where certain orders wouldn't be set to authorized after returning from the payment gateway.
+    - Fix bug in checkout where items with zero price and product price adjustment would sometimes have double the amount when checking out.
+
+1.8.0
+    - You may now choose whether sales tax is applied to shipping on checkout (Thanks Ryan Freeman!)
+    - Fixed issue where products with apostrophes in them didn't work with the product block.
+    - any attribute type with a type handle containing: 'product_price_adjustment_' will modify a product's price with it's getPriceValue function
+    - Translation fixes
+    - More resilient product list block when the product list relies on attributes that have been removed.
+    - Made the checkout and cart links block coexist better.
+    - Tweaks to paypal payment gateway to disable changing of addresses after submitting to paypal.
+    - Better handling of retre at time of purchase should be shown in the orders view (no longer will it be tied to the product as it is today)
+    - Deleted Products no longer cause errors in orders view
+
+1.6.4
+    - Fixed bug in the checkout process that occurred occasionally with order attributes mistakenly being treated as user attributes
+
+1.6.3
+    - Fixed a bug in sales tax that led it to not recompute when an item was added to the cart
+
+1.6.2
+    - Fixed a bug in the payment controller that led to certain gateways no longer working.
+
+1.6.1
+    - Added duplicate product, if the core you're using supports it (must be 5.3.3.2b2 or greater in order to duplicate customer choices.)
+    - Fixed an issue in the popup cart with no content displaying
+    - Bug fixes to product list, including SQL errors, items not staying checked in block edit view
+    - Bug fixes to Authorize.net SIM mode leading to orders that were declined when they were valid.
+    - Allowed items to be removed from cart durieval of the previous order when the previous order doesn't actually exist.
+    - Made delete_small.png hosted by core commerce to get rid of SSL errors.
+
+1.7.4
+    - Fixed issue with Paypal payment gateway posting back multiple times, leading to multiple receipt emails
+    - Fixed issue with digital downloads add-on and gateways other than the default gateway
+    - Tightened secure in Paypal Website Payments pro payment module.
+    - Lots of fixes in checkout flow, additional checkout step helper, lots of small bug fixes
+
+1.7.3
+    - Fixed a JavaScript error that occurred on checkout in IE and other browsers with JavaScript turned off
+    - Wrapped strings in t() function that weren't properly prepared for translation.
+
+1.7.2
+    - fixed errors that occured when editing the Product Detail page type
+
+1.7.1
+    - Moved the clearing of cart and the setting of previous order into the payment controller's finishorder() function to work better with the digital download addon.
+
+1.7
+    - Added three new attribute types (boolean, text, select) that allow modification of product price
+    - Made it so that order attributes can be required or non-required on checkout (through the eCommerce -> Settings -> Order Attributes) page.
+    - Made the thousands separator and decimal point something that  can be changed in the same area of the dashboard as the currency symbol.
+    - Added missing div tags to payment method page
+    - Product Block, Product List Block: Added ablility to specify size and what image is used for in-page, overlay and callout display
+    - Fixed error that occurred when using sales tax and your system doesn't support fnmatch()
+    - Fixed the product page creation when using concrete 5.4.
+    - Fixed callout corner presentation on Safari, webkit browsers
+
+1.6.5
+    - Product name at time of purchase should be shown in the orders view (no longer will it be tied to the product as it is today)
+    - Deleted Products no longer cause errors in orders view
+
+1.6.4
+    - Fixed bug in the checkout process that occurred occasionally with order attributes mistakenly being treated as user attributes
+
+1.6.3
+    - Fixed a bug in sales tax that led it to not recompute when an item was added to the cart
+
+1.6.2
+    - Fixed a bug in the payment controller that led to certain gateways no longer working.
+
+1.6.1
+    - Added duplicate product, if the core you're using supports it (must be 5.3.3.2b2 or greater in order to duplicate customer choices.)
+    - Fixed an issue in the popup cart with no content displaying
+    - Bug fixes to product list, including SQL errors, items not staying checked in block edit view
+    - Bug fixes to Authorize.net SIM mode leading to orders that were declined when they were valid.
+    - Allowed items to be removed from cart during checkout.
+    - Updating shipping prices whenever the cart is modified.
+    - Bug fixes to flat shipping that weren't taking per-product shipping into account
+    - Fixing an error adding additional images in IE 7 and 8
+    - Can no longer checkout with an empty cart. Cart checkout link is hidden with an empty cart as well.
+    - Fix an error in the payment method that made third party payment providers not work.
+    - Made it so that discount types can be packageable.
+    - Fixed an error in orders where a product's price was tied to the product record, rather than the product's price at the time of its purchase.
+
+1.5.1
+
+    - Fix bug in custom shipping countries that resulted in fatal error on checkout.
+    - Fix bug with mysql error on setting order statuses
+
+
+1.5
+    - Can restrict any shipping method by location.
+    - Made display quantity an item in the product block/product list
+    - Added a user ID parameter to the orders table. This should fix the error with paypal checkout not adding a user to a group
+        after a purchase.
+    - If shipping and/or billing information is saved in the user profile, it will be autopopulated in the checkout process
+    - You can now update an order's status from the order dashboard, view status in search history results, and search by status.
+    - You can track an order's status through time, as well as see who set it.
+    - Inventory should be better honored when adding one product at a time.
+    - Order notification email should now list all products if multiple products are purchased.
+    - Certain modifications to shipping to better support additional modules.
+    - Fixed discount where multiple enabled discounts only actually let the LAST discount be applied. Now all enabled discounts with coupon codes should be addable to the cart.
+    - Fixed bug in free shipping discount
+    - Users groups should be refreshed when they purchase items that put them in a group.
+    - Added event: core_commerce_on_checkout_finish_order that's fired when an order is completed
+    - Minor bug fixes
+
+1.1
+    - Sales Tax support.
+    - Per-product shipping modifier. Add an additional cost to an item when using flat shipping. Any shipping method can read this value if they choose.
+    - Include currency options in Paypal standard checkout
+    - Fixed bugs with "currency symbol" displaying incorrectly as $ in some cases
+    - Added ability to control the "from" address for receipt and notification emails. Cleaned up settings page.
+    - Fixed bug in product option attributes that could cause data loss if a product option is removed.
+
+
+1.0 - Initial Release

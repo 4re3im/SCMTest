@@ -1,0 +1,123 @@
+/* 
+    Created on : Sep 30, 2016, 10:52:43 AM
+    Author     : gerardbalila
+*/
+.tab-name {
+    cursor: pointer;
+}
+
+.content-plus-hide {
+    display: none;
+    pointer-events: none;
+}
+
+.content-heading {
+    cursor: move;
+}
+
+#tab-icon-select {
+    font-size: 20px;
+}
+
+#tab-icon-select > option {
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#add-content-detail-file {
+    width : 250px;
+}
+
+#add-content-detail-file:hover {
+    background-color: white;
+    width: 400px;
+}
+
+.body-block {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.unsaved {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.disable-collapse:after {
+    content: "" !important;
+}
+
+.info > h4 {
+    cursor: default;
+}
+
+/*
+ * jQuery UI styles overrides
+ */
+.ui-state-default {
+    background: none;
+    border: none;
+    font-weight: normal;
+}
+
+.ui-widget-content {
+    background: none;
+    background-color: #eee;
+}
+
+.ui-menu .ui-menu-item {
+    list-style: none;
+}
+
+.ui-selectmenu-button {
+    color: black;
+    width: 100% !important;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.ui-selectmenu-button:hover, .ui-selectmenu-button:active, .ui-selectmenu-button:focus {
+    border-color: #ccc;
+    background: none;
+    color : black;
+    font-weight: normal;
+}
+
+.ui-state-active {
+    border-color: #ccc !important;
+    color: black !important;
+}
+
+.ui-menu-item-wrapper:hover {
+    border-color: #ccc;
+    color: black;
+}
+
+.ui-selectmenu-icon {
+    background-image: url('images/ui-icons_222222_256x240.png') !important; 
+}
+/*
+ * end
+ */
+
+.icon-select-display {
+    height: 25px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+#selected-icon {
+    float: left;
+    margin-right: 3px;
+    height: 20px;
+    width: 23px;
+}
+
+.name, .subfolder-name {
+    width : 70%;
+}
+
+.title-link:hover {
+    text-decoration: underline !important;
+}

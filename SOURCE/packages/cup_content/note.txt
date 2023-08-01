@@ -1,0 +1,15 @@
+db.XML failed to create this table.
+Have to create the table mannually. 
+
+CREATE TABLE IF NOT EXISTS `CupContentTitleDownloadableFileOrderRecord` (
+  `id` int(11) NOT NULL auto_increment,
+  `orderID` int(11) NOT NULL,
+  `invoiceID` varchar(12) NOT NULL,
+  `fID` int(11) NOT NULL,
+  `hashKey` varchar(24) NOT NULL,
+  `download_count` int(11) NOT NULL,
+  `expiredAt` datetime NOT NULL,
+  `modifiedAt` datetime NOT NULL,
+  `createdAt` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

@@ -1,0 +1,179 @@
+	#pop-up-frame{
+		width: 640px;
+		height: 470px;
+		position: relative;
+		font-family: PT Sans;
+	}
+	
+	#pop-up-frame .error-msg-frame{
+		display: none;
+		position: absolute;
+		top: 15px;
+		left: 20px;
+		width: 300px;
+		background: #ea5723;
+	}
+	
+	#pop-up-frame .error-msg-frame .close_btn{
+		float: right;
+		margin: 5px;
+		width: 21px;
+		height: 21px;
+		background: url(../images/close_wht.png) no-repeat;
+		cursor: pointer;
+	}
+	
+	#pop-up-frame .error-msg-frame .errors{
+		font-size: 12px;
+		color: #FFFFFF;
+		margin:0px 15px;
+	}
+	
+	.form_section{
+		width: 290px;
+		margin: 0px;
+		margin-left: 30px;
+		float: left;
+	}
+	
+	.form_section .contact_info{
+	
+	}
+	
+	.form_section .contact_info h2{
+		font-size: 16px;
+		font-weight: bold;
+		color: #000000;
+	}
+	
+	.form_section .contact_info p{
+		font-size: 12px;
+		color: #000000;
+	}
+	
+	.form_section .contact_info p a{
+		font-size: 12px;
+		color: #000000;
+	}
+	
+	.form_section .teachers_fill_out_form_title{
+		font-size: 16px;
+		font-weight: bold;
+		color: #000000;
+	}
+	
+	.form_section .title_name{
+		color: #3392A1;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	
+	.form_section .field_section{
+	
+	}
+	
+	.form_section .field_section .field_name{
+		font-size: 12px;
+		font-weight: bold;
+		color: #000000;
+	}
+	
+	.form_section .field_section .field_name span.required{
+		color: #FF0000;
+		font-size: 11px;
+	}
+	
+	.form_section .field_section .field_name select{
+		border: 1px solid #CFE5E9;
+		font-size: 12px;
+		font-weight: normal;
+	}
+	
+	.form_section .field_section .field_name select{
+		margin-left: 10px;
+		font-size: 12px;
+		font-weight: bold;
+		color: #000000;
+	}
+	
+	.form_section .field_section .field_attr{
+		color: #000000;
+	}
+	
+	.form_section .field_section .field_attr textarea{
+		width: 100%;
+		height: 55px;
+		border: 1px solid #CFE5E9;
+		resize: none;
+	}
+	
+	.form_section .field_section .field_attr textarea:focus{
+		background: #c2dee3;
+	}
+	
+	.form_section .field_section .field_attr .checkbox_item{
+		width: 120px;
+		margin-left: 10px;
+		margin-right: 5px;
+		float: left;
+		padding-top: 5px;
+	}
+	
+	.form_section .field_section .field_attr input[type="text"] {
+		border: 1px solid #CFE5E9;
+		width: 250px;
+	}
+	
+	.form_section .field_section .field_attr input[type="text"]:focus {
+		background: #c2dee3;
+	}
+	
+	
+	
+	.form_section .field_section .field_attr .checkbox_item input{
+		border:1px;
+	}
+	
+	.field_section .terms{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-style: italic;
+		font-size: 12px;
+	}
+	
+	.form_section .field_section.end{
+		width: 250px;
+	}
+	
+	
+	.form_section input[type="submit"]{
+		border: 0px;
+		color: #000000;
+		font-weight: bold;
+		padding: 5px 10px;
+		background: #CFE5E9;
+	}
+	
+	.form_section input[type="submit"]:hover{
+		border: 0px;
+		color: #FFFFFF;
+		font-weight: bold;
+		padding: 5px 10px;
+		background: #ea5723;
+	}
+	
+	.form_section input[type="submit"]:active{
+		border: 0px;
+		color: #FFFFFF;
+		font-weight: bold;
+		padding: 5px 10px;
+		background: #aa4422;
+	}
+	
+	.form_section span.loader{
+		display: none;
+		padding:12px 14px;
+		background: url(../images/ajax-loader.gif) no-repeat;
+	}
+	

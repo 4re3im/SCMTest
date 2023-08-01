@@ -1,0 +1,512 @@
+.cup-content-area-main{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.clr{
+	clear: both;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.cup-competition-content-menu{
+	float:left;
+	border-top: 10px solid #4bcc32;
+	font-family: 'netto_otregular';
+}
+
+.cup-competition-content-menu .gap{
+	width: 1px;
+	height: 1px;
+}
+
+.cup-competition-content-menu a{
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.cup-competition-content-menu a .item,
+.cup-competition-content-menu a:link .item,
+.cup-competition-content-menu a:active .item,
+.cup-competition-content-menu a:visited .item,
+.cup-competition-content-menu a:hover .item{
+	float: left;
+	margin: 1px 0px 0px 1px;
+	padding: 0px 8px;
+	line-height: 28px;
+	background: #333333;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.cup-competition-content-menu a:hover .item{
+	background: #28ff00;
+	color: #333333;
+	text-decoration: none;
+	letter-spacing:1px;
+}
+
+
+.cup-competition-content-menu a .item.home{
+	background: url(../images/comp_home_sprite.png) 0px -64px no-repeat #333333;
+	padding-left: 32px;
+	letter-spacing:1px;
+}
+
+.cup-competition-content-menu a:hover .item.home{
+	background: url(../images/comp_home_sprite.png) 0px -32px no-repeat #28ff00;
+	color: #333333;
+	text-decoration: none;
+}
+
+.cup-competition-content-menu a .item.active,
+.cup-competition-content-menu a:hover .item.active,
+.cup-competition-content-menu a:link .item.active,
+.cup-competition-content-menu a:visited .item.active,
+.cup-competition-content-menu a:active .item.active{
+	color: #28ff00;
+	text-decoration: none;
+	background-color: #333333;
+}
+
+.cup-competition-content-menu a .item.active.home,
+.cup-competition-content-menu a:hover .item.active.home,
+.cup-competition-content-menu a:link .item.active.home,
+.cup-competition-content-menu a:visited .item.active.home,
+.cup-competition-content-menu a:active .item.active.home{
+	background: url(../images/comp_home_sprite.png) 0px 0px no-repeat #333333;
+}
+
+
+
+
+
+
+
+
+.cup_competition_page_title{
+	border-top: 1px solid #c2dee3;
+	border-bottom : 1px solid #c2dee3;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	padding: 0px 30px;
+}
+
+.cup_competition_page_section_title{
+	border-top: 1px solid #c2dee3;
+	border-bottom : 1px solid #c2dee3;
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: 200;
+	color: #28ff00;
+	background: #333333;
+	padding: 0px 30px;
+}
+
+.cup_competition_page_content{
+	padding: 0px 30px;
+	font-family: PT Sans;
+}
+
+.cup_competition_page_content .cup_competition_question_item{
+	padding-bottom: 8px
+}
+
+.cup_competition_page_content .cup_competition_question_item div.label{
+	color: #333333;
+	font-family: PT sans;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.cup_competition_page_content .cup_competition_question_item span.required{
+	color: #ea5723;
+	padding-left:5px;
+	font-weight: bold;
+}
+
+.cup_competition_page_content .cup_competition_question_item div.field{
+	color: #333333;
+}
+
+.cup_competition_page_content .cup_competition_question_item div.field input,
+.cup_competition_page_content .cup_competition_question_item div.field select,
+.cup_competition_page_content .cup_competition_question_item div.field textarea{
+	border: 1px solid #c2dee3;
+}
+
+.cup_competition_page_content .cup_competition_question_item div.field input,
+.cup_competition_page_content .cup_competition_question_item div.field select{
+	height: 20px;
+}
+
+.cup_competition_page_content .cup_competition_question_item div.field input:focus,
+.cup_competition_page_content .cup_competition_question_item div.field select:focus,
+.cup_competition_page_content .cup_competition_question_item div.field textarea:focus{
+	border: 1px solid #007788;
+}
+
+.cup_competition_page_content .cup_competition_question_item div.field input[type="text"],
+.cup_competition_page_content .cup_competition_question_item div.field textarea{
+	width: 400px;
+}
+
+.cup_competition_page_content .cup_competition_question_item div.field .checkbox_item{
+	clear: both;
+	padding-left: 15px;
+    text-indent: -15px;
+	padding-bottom: 4px;
+	font-size: 12px;
+}
+
+.cup_competition_page_content .cup_competition_question_item div.field .checkbox_item input{
+	/*float: left;*/
+	width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: top;
+    position: relative;
+    top: 2px;
+}
+
+.cup_competition_page_content .cup_competition_question_item div.field .checkbox_item div.value{
+	margin-left: 13px;
+	
+}
+
+.cup_competition_page_content .cup_competition_question_item div.note{
+	color: #e95723;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 12px;
+	padding-top:5px;
+}
+
+
+
+
+
+.cup-competition-slim-header{
+	height: 254px;
+	position: relative;
+}
+
+.cup-competition-slim-header .image-frame{
+	position: absolute;
+	width: 1020px;
+	top: 32px;
+	left: 0px;
+	height: 220px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 220px;
+	border: 2px solid #333333;
+}
+
+.cup-competition-slim-header .image-frame img{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+
+.cup-competition-slim-header .menu-btn-frame{
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	width: 120px;
+	height: 40px;
+	background: #4bcb32;
+	border: 2px solid #333333;
+}
+
+.cup-competition-slim-header .menu-btn-frame .btns{
+	width: 120px;
+	height: 32px;
+	background: #333333;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: PT Sans;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+
+.cup-competition-slim-header .menu-btn-frame .btns a{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	font-family: PT Sans;
+	color: #FFFFFF;
+}
+
+.cup-competition-slim-header .menu-btn-frame .btns a.active{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	font-family: PT Sans;
+	color: #28ff00;
+}
+
+.cup-competition-slim-header .menu-btn-frame .btns span.active{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	font-family: PT Sans;
+	color: #28ff00;
+}
+
+.cup-competition-slim-header .description_frame{
+	left: 0;
+    position: absolute;
+    top: 100px;
+}
+
+.cup-competition-slim-header .description_frame .indication_frame{
+	background: none repeat scroll 0 0 #222222;
+    float: left;
+    height: 102px;
+    overflow: hidden;
+    width: 25px;
+}
+
+.cup-competition-slim-header .description_frame .info_frame{
+	background: url("../images/slider/info_background_black.png") repeat-y scroll 0 0 transparent;
+    float: left;
+    height: 102px;
+    padding-right: 200px;
+    width: 520px;
+}
+
+.cup-competition-slim-header .description_frame .info_frame .content_area{
+
+}
+
+.cup-competition-slim-header .description_frame .info_frame .content_area h5{
+	margin:0px;
+	padding: 10px 5px 2px 15px;
+	font-size: 38px;
+	font-family: Source Sans Pro;
+	font-weight: 200;
+	line-height: 42px;
+	color: #28ff00;
+}
+
+.cup-competition-slim-header .description_frame .info_frame .content_area p{
+	margin:0px;
+	padding: 2px 5px 2px 15px;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: PT Sans;
+}
+
+
+
+.cup-competition-errors{
+	background: #ea5723;
+	padding: 10px 0px;
+}
+
+.cup-competition-errors ul{
+	padding: 0px;
+	margin: 0px;
+	margin: 0px 30px;
+}
+
+.cup-competition-errors ul li{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.cup-competition-success{
+	background: #28ff00;
+	line-height: 55px;
+	font-size: 35px;
+	padding: 0px 20px;
+	color: #333333;
+}
+
+
+
+#form_submit_btn{
+	padding: 0px 10px;
+	background: #333333;
+	color: #28ff00;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 28px;
+	border: 0px;
+	cursor: pointer;
+}
+
+#form_submit_btn:hover{
+	padding: 0px 10px;
+	background: #28ff00;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 28px;
+	border: 0px;
+}
+
+#form_submit_btn:active{
+	padding: 0px 10px;
+	background: #28ff00;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 28px;
+	border: 0px;
+}
+
+#form_loading_indicator{
+	width: 120px;
+	height: 32px;
+	padding: 0px 10x;
+	padding-left: 40px;
+	background: url(../images/ajax-loader.gif) no-repeat;
+	line-height: 32px;
+	font-size: 16px;
+	font-style: italic;
+	color: #777777;
+	display: none;
+}
+
+
+
+.cup_competition_gallery_content{
+
+}
+
+
+.cup_competition_gallery_content .gallery_item{
+	width: 256px;
+	height: 250px;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+}
+
+.cup_competition_gallery_content .gallery_item .hover_info{
+	position: relative;
+	top: -85px;
+	display: none;
+	margin: 0px auto;
+	width: 235px;
+	height: 80px;
+	background: url(../images/black_80.png);
+}
+
+.cup_competition_gallery_content .gallery_item a,
+.cup_competition_gallery_content .gallery_item a:link,
+.cup_competition_gallery_content .gallery_item a:visited,
+.cup_competition_gallery_content .gallery_item a:active,
+.cup_competition_gallery_content .gallery_item a:hover{
+	text-decoration: none;
+	background: transparent;
+}
+
+.cup_competition_gallery_content .gallery_item a:hover .hover_info{
+	display: block;
+}
+
+.cup_competition_gallery_content .gallery_item .hover_info .content,
+.cup_competition_gallery_content .gallery_item a .hover_info .content,
+.cup_competition_gallery_content .gallery_item a:hover .hover_info .content,
+.cup_competition_gallery_content .gallery_item a:link .hover_info .content,
+.cup_competition_gallery_content .gallery_item a:active .hover_info .content,
+.cup_competition_gallery_content .gallery_item a:visited .hover_info .content{
+	height: 60px;
+	font-size: 16px;
+	font-style: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #28FF00;
+	text-align: left;
+	margin: 0px 10px;
+	text-decoration: none;
+	background: url(../images/open_thumb_hover.png) no-repeat top right;
+}
+
+
+
+
+#btn_competition_enter_now{
+	margin-top: 15px;
+	margin-right: 10px;
+	width: 276px;
+	height: 60px;
+	background: url(../images/enter.png) no-repeat;
+}
+
+.cup_competition_gallery_content .custom_pagination{
+	font-size: 14px;
+	font-family: PT sans;
+	color: #000;
+}
+
+.cup_competition_gallery_content .custom_pagination .pager{
+	font-size: 14px;
+	font-family: PT sans;
+	color: #000;
+	font-weight: 900;
+}
+
+.cup_competition_gallery_content .custom_pagination .pager a,
+.cup_competition_gallery_content .custom_pagination .pager a:link,
+.cup_competition_gallery_content .custom_pagination .pager a:visited,
+.cup_competition_gallery_content .custom_pagination .pager a:active,
+.cup_competition_gallery_content .custom_pagination .pager a:hover{
+	font-size: 14px;
+	font-family: PT sans;
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+.cup_competition_gallery_content .custom_pagination .pager span{
+	font-size: 14px;
+	font-family: PT sans;
+	color: #000;
+	font-weight: 900;
+	padding: 0px 3px;
+}
+
+.cup_competition_gallery_content .custom_pagination .pager span.currentPage.active{
+	font-size: 14px;
+	font-family: PT sans;
+	color: #000;
+	font-weight: 900;
+	background: #4BCC32;
+	padding: 0px 3px;
+}
+
+.cup_competition_gallery_content .custom_pagination .pager span.ltgray{
+	color: #888;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.cup-competition-gallery-pagination-frame{
+	padding: 5px 15px;
+	border-top: 1px solid #CFE5E9;
+	border-bottom: 1px solid #CFE5E9;
+}
+
+.cup-competition-gallery-pagination-frame .custom_pagination .pager a{
+	padding: 0px;
+	border: 0px;
+}

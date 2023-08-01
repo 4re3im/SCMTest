@@ -1,0 +1,183 @@
+<html>
+<head>
+<style>
+	body{
+		background: #bccedc;
+	}
+	
+	/*
+	div#content{
+		background: #FFFFFF;
+		border: 20px solid #FFFFFF;
+		border-left: 20px solid #FFFFFF;
+		border-right: 20px solid #FFFFFF;
+	}
+	*/
+	
+	table#content{
+		background: #FFFFFF;
+	}
+	
+	table{
+		font-size: 11px;
+	}
+	
+	table{
+		border-collapse:collapse;
+	}
+	
+	table td{
+		vertical-align:top;
+	}
+	
+	table.showborder td{
+		vertical-align:top;
+		border: 1px solid #000000; 
+	}
+	
+	table tr.showborder td,
+	table tr.showborder th{
+		vertical-align:top;
+		border: 1px solid #000000; 
+	}
+	
+	table td.showborder,
+	table th.showborder{
+		vertical-align:top;
+		border: 1px solid #000000; 
+	}
+</style>
+</head>
+<body style="background: #bccedc;">
+<table width="100%">
+	<tr>
+		<td width="49%" style="width:49%;"></td>
+		<td width="2%" style="width:2%;">&nbsp;</td>
+		<td width="49%" style="width:49%;"></td>
+	</tr>
+	<tr>
+		<td width="49%" style="width:49%;"></td>
+		<td width="2%" style="width:2%;">
+			<table width="600" style="600px" id="content" bgcolor="#FFFFFF" style="background:#FFFFFF;">
+				<tr>
+					<td colspan="3" style="height:20px" height="20">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="25" style="width:25px">&nbsp;</td>
+					<td width="550" style="width:550px">
+							<table width="100%">
+								<tr>
+									<td width="5%" style="width:5%;padding: 0px 10px;text-align:left;">
+										<img src="http://edu.dev.cambridge.edu.au/email-cambridge-logo.gif" width="180" height="45"/>
+									</td>
+									<td width="30%" style="width:30%;padding: 0px 10px 0px 70px;text-align:left;">
+										Cambridge University Press<br/>
+										477 Williamstown Road<br/>
+										(Private Bag 31)<br/>
+										Port&nbsp;Melbourne&nbsp;Victoria&nbsp;3207<br/>
+										Email:&nbsp;enquiries@cambridge.edu.au<br/>
+										Website:&nbsp;www.cambridge.edu.au
+									</td>
+									<td width="65%" style="width:65%;padding: 0px 10px;text-align:right;">
+										Customer Service<br/>
+										Phone:&nbsp;+61&nbsp;0(3)&nbsp;8671&nbsp;1400<br/>
+										Fax:&nbsp;+61&nbsp;0(3)&nbsp;9676 9966<br/>
+										<br/>
+										AUST&nbsp;Freefax:&nbsp;1800&nbsp;110&nbsp;521<br/>
+										NZ&nbsp;Freefax:&nbsp;0800&nbsp;501&nbsp;016
+									</td>
+								</tr>
+							</table>
+							
+							<div style="width:100%;height:15px">&nbsp;</div>
+							
+							<table width="100%">
+								<tr>
+									<td width="100%" align="center" style="width:100%;padding:5px;text-align:center;">
+										<strong style="font-size:18px">Cambridge University Press Tax Invoice</strong>
+									</td>
+								</tr>
+							</table>
+							
+							<div style="width:100%;height:15px">&nbsp;</div>
+							
+							<table class="showborder" width="100%">
+								<tr>
+									<td width="35%" style="width:35%;padding: 5px;">
+										<strong>Charge to:</strong><br/>
+										%%BILLING_DETAIL%%
+									</td>
+									<td width="35%" style="width:35%;padding: 5px;">
+										<strong>Deliver to:</strong><br/>
+										%%SHIPPING_DETAIL%%
+									</td>
+									<td width="30%" style="width:30%;text-align:right;padding: 5px;">
+										Invoice Number: %%INVOICE_NUMBER%%<br/>
+										Date: %%ORDER_DATE%%
+									</td>
+								</tr>
+							</table>
+							
+							<div style="width:100%;height:15px">&nbsp;</div>
+							
+							<table width="100%">
+								<tr class="showborder">
+									<th width="10%" style="width:10%;padding: 5px;">Order&nbsp;Number</th>
+									<th width="10%" style="width:10%;padding: 5px;">ISBN</th>
+									<th width="5%" style="width:5%;padding: 5px;">Qty</th>
+									<th width="40%" style="width:40%;padding: 5px;">Title</th>
+									<th width="5%" style="width:5%;padding: 5px;">Edition</th>
+									<th width="10%" style="width:10%;padding: 5px;text-align:right;">Price</th>
+									<th width="12%" style="width:12%;padding: 5px;text-align:right;">Net Value</th>
+								</tr>
+								%%ITEMS%%
+								<tr>
+									<td colspan="7">&nbsp;</td>
+								</tr>
+								%%INCLUSIVE_ITEM%%
+								<tr>
+									<td colspan="4"></td>
+									<td class="showborder" colspan="2" style="padding: 5px;text-align:right">Total Value</td>
+									<td class="showborder" style="padding: 5px;text-align:right;">%%TOTAL_AMOUNT%%</td>
+								</tr>
+							</table>
+							
+							<div style="width:100%;height:15px;">&nbsp;</div>
+							<table width="100%">
+								<tr>
+									<td style="padding: 10px 5px 5px 5px;" colspan="3">
+										Please note: Physical goods will be supplied direct from our Distribution centre/s with appropriate paperwork.
+									</td>
+								</tr>
+							</table>
+							<div style="width:100%;height:8px;font-size:8px;line-height:8px;border-bottom:1px dotted #888888;">&nbsp;</div>
+							<table width="100%">
+								<tr>
+									<td style="padding: 10px 5px 5px 5px;" colspan="3">
+										Cambridge University Press, the style under which The Chancellor, Masters and Scholars of the University of Cambridge print and publish, is a charitable enterprise and the oldest press in the world. The University has printed and published since 1584. It is incorporated in the United Kingdom. <br/>
+									</td>
+								</tr>
+								<tr>
+									<td width="35%" align="right" style="padding: 0px 10px; text-align:right;">ARBN 007 507 584</td>
+									<td width="30%" align="center" style="padding: 0px 10px; text-align:center;">ABN 28 508 204 178</td>
+									<td width="35%" align="left" style="padding: 0px 10px; text-align:left;">NZ IRN 99 683686</td>
+								</tr>
+							</table>
+					</td>
+					<td width="25" style="width:25px">&nbsp;</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="height:20px" height="20">&nbsp;</td>
+				</tr>
+			<table>
+		</td>
+		<td width="49%" style="width:49%;"></td>
+	</tr>
+	<tr>
+		<td width="49%" style="width:49%;"></td>
+		<td width="2%" style="width:2%;">&nbsp;</td>
+		<td width="49%" style="width:49%;"></td>
+	</tr>
+</table>
+</body>
+</html>

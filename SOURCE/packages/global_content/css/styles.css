@@ -1,0 +1,25 @@
+#global-content-display {
+    display: none;
+}
+
+#loading-icon-container {
+    height: 300px;
+    width: 60%;
+    display: none;
+    background-color: none;
+    z-index : 1;
+    border: 1px solid red;
+    position: absolute; 
+}
+
+#loading {
+    position: relative;
+    left: 50%;
+    top: 50%;
+}
+
+textarea {
+    width : 100% !important;
+    height : 20% !important;
+}
+

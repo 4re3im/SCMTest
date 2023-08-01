@@ -1,0 +1,28 @@
+.dynamic_content{
+	font-family: PT Sans;
+}
+
+
+
+div.cup_content_block{
+
+}
+
+div.cup_content_block ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+div.cup_content_block ul li{
+	padding: 4px 0px 4px 20px;
+	margin: 0px;
+	list-style: none;
+	background: url(images/list-icon-dark-18.png) no-repeat 0px 4px;
+}
+
+div.cup_content_block ul li:hover{
+	padding: 4px 0px 4px 20px;
+	margin: 0px;
+	list-style: none;
+	background: url(images/list-icon-dark-18.png) no-repeat 0px 4px #FBD765;
+}

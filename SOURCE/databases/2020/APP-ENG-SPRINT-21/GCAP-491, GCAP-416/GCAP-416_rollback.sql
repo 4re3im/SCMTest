@@ -1,0 +1,19 @@
+-- Import backed-up tables listed below
+
+-- tngdb.CupGoAccessCodes
+-- tngdb.CupGoTabAccess
+-- tngdb.CupGoTabAccessUpdated
+-- tngdb.CupGoTabAccessUpdates
+-- tngdb.CupGoTabAccessTemp
+-- tngdb.CupGoTabAccessRollover
+-- tngdb.CupGoUserSubscription
+-- tngdb.CupGoUserSubscriptionRollover
+-- tngdb.CupGoUserSubscriptionHMProvision
+-- tngdb.CupContentOrder
+-- tngdb.CupContentVistaOrderRecord
+-- tngdb.CupContentTitleDownloadableFileOrderRecord
+-- tngdb.CupContentGoAccessCodeEmailTemplate
+-- tngdb.CupGoAccessCodeBulkActivation
+-- tngdb.CupContentGoAccessCode
+-- tngdb.CupGoAccessCodesBundle
+-- tngdb.CupGoNotifications

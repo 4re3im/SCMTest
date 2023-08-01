@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <!-- SeriesAnswers Table -->
+    <table name="Provision_Files">
+        <field name="ID" type="I" size="11">
+            <key></key> 
+            <autoincrement></autoincrement>
+        </field>
+        <field name="StaffID" type="I" size="11"></field>
+        <field name="File" type="C2" size="50"></field>
+        <field name="CreationDate" type="T">
+            <deftimestamp></deftimestamp>
+        </field>   
+    </table>    
+    <table name="Provision_Codes">
+        <field name="ID" type="I" size="11">
+            <key ></key>
+            <autoincrement></autoincrement>
+        </field>
+        <field name="USID" type="I" size="11"></field>
+        <field name="UserID" type="I" size="11"></field>
+        <field name="PFID" type="I" size="11"></field>
+        <field name="EmailAddress" type="C2" size="50"></field>
+        <field name="Password" type="C2" size="50"></field>
+        <field name="FirstName" type="C2" size="50"></field>
+        <field name="LastName" type="C2" size="50"></field>
+        <field name="ProAccessCode" type="C2" size="20"></field>
+        <field name="School" type="C2" size="50"></field>
+        <field name="State" type="C2" size="50"></field>
+        <field name="Postcode" type="C2" size="50"></field>
+        <field name="Role" type="C2" size="11"></field>
+        <field name="UserTypeID" type="C2" size="1"><default value="N"/></field>
+        <field name="UserExists" type="C2" size="1"><default value="N"/></field>
+        <field name="AccessCodeUsable" type="C2" size="1"><default value="Y"/></field>  
+    </table>    
+    <table name="Logs">
+        <field name="logID" type="I" size="10">
+            <key ></key>
+            <autoincrement></autoincrement>
+        </field>
+        <field name="logType" type="C2" size="64"></field>
+        <field name="timestamp" type="T">
+            <deftimestamp></deftimestamp>
+        </field>
+        <field name="logText" type="XL"></field>
+        <field name="logUserID" type="I" size="11"></field>
+        <field name="logIsInternal" type="I1" size="1"></field>
+    </table> 
+</schema>

@@ -1,0 +1,2 @@
+Activate theme
+Theme for Activate page

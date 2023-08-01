@@ -1,0 +1,8 @@
+.ccm-input-select {
+     width: initial !important;
+}
+
+.disabled {
+     pointer-events: none;
+     cursor: not-allowed;
+}

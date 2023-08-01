@@ -1,0 +1,29 @@
+#ccm-core-commerce-wishlist .ccm-core-commerce-wishlist-contents, #ccm-core-commerce-registry .ccm-core-commerce-registry-contents {  
+	float: left;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 67%; 
+}
+
+#ccm-core-commerce-wishlist-sidebar, #ccm-core-commerce-registry-sidebar {  
+	float: right;
+    overflow: hidden;
+    width: 23%;
+}
+
+#ccm-core-commerce-wishlist-otherlists .nav, #ccm-core-commerce-registry-otherlists .nav {
+	list-style: none;
+	margin: 12px 0 12px 0;
+	padding: 0;
+}
+
+#ccm-core-commerce-wishlist-otherlists .nav li, #ccm-core-commerce-registry-otherlists .nav li {
+	padding: 2px 2px 4px 2px;
+}
+
+#ccm-core-commerce-wishlist-otherlists .nav li.nav-selected, #ccm-core-commerce-registry-otherlists .nav li.nav-selected { background-color: #EFEFEF; }
+
+#ccm-core-commerce-wishlist-menu, #ccm-core-commerce-registry-menu { float: right; margin-top: 12px; }
+
+#ccm-wishlist-manage-link, #ccm-registry-manage-link { padding-top: 12px; }
+input#ccm-ecommerce-wishlist-url, input#ccm-ecommerce-registry-url {width: 80%; }

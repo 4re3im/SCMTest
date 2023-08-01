@@ -1,0 +1,11 @@
+/**
+ * ANZGO-3353 Added by John Renzo Sunico, May 05,2017
+ */
+
+setTimeout(function() {
+    var a=document.createElement("script");
+    var b=document.getElementsByTagName("script")[0];
+    a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0043/9388.js?"+Math.floor(new Date().getTime()/3600000);
+    a.async=true;
+    a.type="text/javascript";b.parentNode.insertBefore(a,b);
+}, 1);

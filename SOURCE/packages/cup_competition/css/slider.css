@@ -1,0 +1,160 @@
+.cup-competition-slider{
+	height: 476px;
+	position: relative;
+}
+
+.cup-competition-slider .menu-btn-frame{
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	width: 120px;
+	height: 40px;
+	background: #4bcb32;
+	border: 2px solid #333333;
+}
+
+.cup-competition-slider .menu-btn-frame .btns{
+	width: 120px;
+	height: 32px;
+	background: #333333;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	font-family: PT Sans;
+	color: #FFFFFF;
+}
+
+.cup-competition-slider .menu-btn-frame .btns a{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	font-family: PT Sans;
+	color: #FFFFFF;
+}
+
+.cup-competition-slider .menu-btn-frame .btns a.active{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	font-family: PT Sans;
+	color: #28ff00;
+}
+
+.cup-competition-slider .menu-btn-frame .btns span.active{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	font-family: PT Sans;
+	color: #28ff00;
+}
+
+
+.cup-competition-slider .slider_frame{
+	height: 440px;
+	position: relative;
+	top: 32px;
+	left: 0px;
+	border: 2px solid #333333;
+}
+
+.cup-competition-slider .slider_frame .image_holder{
+	display: none;
+}
+
+.cup-competition-slider .slider_frame .image_frame{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #333333;
+}
+
+.cup-competition-slider .slider_frame .image_frame .transition_frame{
+	position: absolute;
+	width: 200%;
+	height: 100%;
+}
+
+.cup-competition-slider .slider_frame .image_frame .transition_frame .position_one,
+.cup-competition-slider .slider_frame .image_frame .transition_frame .position_two{
+	float: left;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.cup-competition-slider .slider_frame .image_frame .transition_frame .position_one img,
+.cup-competition-slider .slider_frame .image_frame .transition_frame .position_two img{
+	margin: 0px;
+	padding: 0px;
+}
+
+.cup-competition-slider .slider_frame .image_frame .image_layer{
+	width: 100%;
+	height: 100%;
+}
+
+
+.cup-competition-slider .slider_frame .loading_indicator{
+	position: absolute;
+}
+
+.cup-competition-slider .slider_frame .description_frame{
+	display: none;
+	position: absolute;
+	top: 240px;
+	left: 0px;
+}
+
+.cup-competition-slider .slider_frame .description_frame .indication_frame{
+	float: left;
+	width: 25px;
+	height: 102px;
+	/*border: 5px solid #333333;*/
+	background: #222222;
+	overflow: hidden;
+}
+
+.cup-competition-slider .slider_frame .description_frame .indication_frame .indicator{
+	background: #55a046;
+	width: 15px;
+	height: 15px;
+	margin: 4px 0px 0px 4px;
+}
+
+.cup-competition-slider .slider_frame .description_frame .indication_frame .indicator.active{
+	background: #28ff00;
+}
+
+.cup-competition-slider .slider_frame .description_frame .info_frame{
+	float: left;
+	width: 520px;
+	height: 102px;
+	padding-right: 200px;
+	background: url(../images/slider/info_background_black.png) repeat-y;
+}
+
+.cup-competition-slider .slider_frame .description_frame .info_frame h5{
+	margin:0px;
+	padding: 10px 5px 2px 15px;
+	font-size: 38px;
+	font-family: Source Sans Pro;
+	line-height: 42px;
+	font-weight: 200;
+	color: #28ff00;
+}
+
+.cup-competition-slider .slider_frame .description_frame .info_frame p{
+	margin:0px;
+	padding: 2px 5px 2px 15px;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: PT Sans;
+}
+
+.cup-competition-slider .slider_frame .description_frame .info_frame .content_area{
+
+}

@@ -1,0 +1,32 @@
+.hidden-fields {
+  display: none;
+}
+
+/*
+ * AUTOCOMPLETE STYLES
+ */
+.ui-autocomplete {
+  max-height: 300px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+  font-size: 13px;
+}
+
+.ui-autocomplete-loading {
+  background: rgba(0, 0, 0, 0) url('/packages/go_provisioning/images/ajax-loader.gif')
+  no-repeat scroll right center;
+}
+/*
+ * END
+ */
+
+/*
+ * SCHOOL SEARCH
+ */
+#bulk-actions-institutions {
+  margin-bottom: 2em;
+}
+/*
+ * END
+ */

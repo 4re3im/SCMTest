@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>success</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="HUB-85---ACC-1-Headings-on-registration-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="login-copy-2" transform="translate(-906.000000, -320.000000)">
+            <g id="success" transform="translate(906.000000, 320.000000)">
+                <g id="Group">
+                    <rect id="Checkbox" fill="#BEE59B" x="0" y="0" width="20" height="20" rx="10"></rect>
+                    <path d="M15.2884894,6.37379663 C15.7868849,6.87091747 15.7868849,7.67905751 15.2884894,8.17617835 L10.332577,13.1320907 C9.58434643,13.8790467 8.37341105,13.8790467 7.62518045,13.1320907 L5.37284063,10.8797509 C4.87571979,10.3826301 4.87571979,9.57576472 5.37284063,9.07736921 C5.87123614,8.58024837 6.67810151,8.58024837 7.17522235,9.07736921 L8.07513854,9.9772854 C8.57353405,10.4756809 9.38294876,10.4756809 9.88261893,9.9772854 L13.4861077,6.37379663 C13.9832285,5.87540112 14.7913686,5.87540112 15.2884894,6.37379663 L15.2884894,6.37379663 Z" id="Path" fill="#1F8016"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

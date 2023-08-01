@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px"
+	 height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#55A045;}
+	.st1{clip-path:url(#XMLID_16_);fill:#55A045;}
+	.st2{clip-path:url(#XMLID_17_);fill:#55A045;}
+</style>
+<polyline id="XMLID_11_" class="st0" points="20.3,14.1 21.1,16.2 13.7,18.9 13,16.8 13.7,16.5 14.2,17.9 20.1,15.7 19.6,14.4 
+	20.3,14.1 19.4,11.9 20.1,11.6 21,13.9 20.3,14.1 "/>
+<polyline id="XMLID_10_" class="st0" points="19.2,6.4 21,11.3 20.2,11.6 18.4,6.7 19.2,6.4 "/>
+<polyline id="XMLID_9_" class="st0" points="18.1,6 18.4,6.7 17.7,6.9 17.4,6.2 16.6,6.5 17.4,8.6 16.7,8.9 15.7,6.1 15.7,6.1 
+	17.1,5.5 17.4,6.2 18.1,6 "/>
+<polyline id="XMLID_8_" class="st0" points="15.7,6.1 15.7,6.1 14.3,6.6 15.1,8.7 14.3,9 13.3,6.1 11.8,6.7 12.9,9.6 12.1,9.9 
+	9.7,3.4 10.6,3.1 11.6,5.9 13,5.4 13.3,6.1 15.4,5.3 15.7,6.1 "/>
+<polyline id="XMLID_7_" class="st0" points="12.4,15.3 13,16.8 12.2,17.1 11.7,15.6 11,15.9 10.5,14.5 9.8,14.7 9.2,13.3 8.5,13.6 
+	8.2,12.8 7.5,13.1 6.6,10.8 8.9,10 9.1,10.8 9.8,10.5 7.5,4.2 8.3,3.9 11.8,13.4 11,13.7 10.9,13.7 10,11.2 9.3,11.5 9.1,10.8 
+	7.8,11.3 8.3,12.7 8.9,12.5 9.2,13.2 9.9,12.9 10.5,14.4 11.1,14.1 11.7,15.6 12.4,15.3 "/>
+<g id="XMLID_13_">
+	<g id="XMLID_20_">
+		<defs>
+			<rect id="XMLID_6_" x="0" y="0" width="32" height="32"/>
+		</defs>
+		<clipPath id="XMLID_16_">
+			<use xlink:href="#XMLID_6_"  style="overflow:visible;"/>
+		</clipPath>
+		<polyline id="XMLID_5_" class="st1" points="10.8,3 11.2,3.9 9.5,4.5 9.2,3.7 10.8,3 		"/>
+	</g>
+	<g id="XMLID_14_">
+		<defs>
+			<rect id="XMLID_4_" x="0" y="0" width="32" height="32"/>
+		</defs>
+		<clipPath id="XMLID_17_">
+			<use xlink:href="#XMLID_4_"  style="overflow:visible;"/>
+		</clipPath>
+		<path id="XMLID_15_" class="st2" d="M7.5,28.8h1.1v-1.1h1.1v-1.1h12.8v1.1h1.1v1.1h1.1v1.1H7.5V28.8 M2.1,2.1h27.7v20.3H2.1V2.1z
+			 M1.1,0L0,1.1v22.4l1.1,1.1h12.8v1.1H8.5l-4.3,5.3V32h23.5v-1.1l-4.3-5.3h-5.3v-1.1h12.8l1.1-1.1V1l-1.1-1H1.1z"/>
+	</g>
+</g>
+</svg>

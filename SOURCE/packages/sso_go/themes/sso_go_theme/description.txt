@@ -1,0 +1,2 @@
+SSO Go Theme
+Theme for the SSO Go.
