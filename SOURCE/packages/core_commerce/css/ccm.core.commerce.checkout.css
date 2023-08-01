@@ -1,9 +1,0 @@
-div.ccm-core-commerce-checkout-form table {width: 100%; border: 1px solid #aaa; color:#666666;}
-div.ccm-core-commerce-checkout-form table td {background-color: #ebf4f6!important; padding: 8px 20px 8px 15px!important;}
-div.ccm-core-commerce-checkout-form input.ccm-input-text {width: 100%}
-
-div.ccm-core-commerce-cart-buttons input.ccm-core-commerce-checkout-button-next {float: right}
-div.ccm-core-commerce-cart-buttons input.ccm-core-commerce-checkout-button-previous {float: left}
-
-div.ccm-core-commerce-profile-address-save { text-align: right; }
-div.ccm-core-commerce-checkout-form-shipping-method-option span.unavailable-method { background: #FFC8C8; padding: 0 15px; }

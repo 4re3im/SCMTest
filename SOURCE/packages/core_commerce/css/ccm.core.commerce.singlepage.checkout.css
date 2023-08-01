@@ -1,9 +1,0 @@
-@CHARSET "UTF-8";
-.ccm-core-commerce-checkout-singlepage h2.ccm-cart-step-disabled  { color:#ccc; cursor: auto; }
-.ccm-core-commerce-checkout-singlepage h2 { 
-	background-color: #EFEFEF;
-	padding: 4px;
-	cursor: pointer;
-}
-
-/* #EFEFEF */
