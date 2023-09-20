@@ -1,3 +1,0 @@
-This is test for auto polling update
-part 2
-No run
